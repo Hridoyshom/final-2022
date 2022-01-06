@@ -5,6 +5,13 @@ body{
 .color{
     color: orange;
 }
+.color1{
+    color: orange;
+    text-align: center;
+}
+.newh1{
+    text-align: center;
+}
 .first-div{
     padding-left: 70px;
     width: 50%;
@@ -18,11 +25,35 @@ body{
     margin-left: 50px;
     margin-bottom: 30px;
 }
-.flexible{
-    display: flex;
-    margin-bottom: 150px;
+.second-div{
+    padding-left: 70px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.second-div img{
+    width: 60%;
+    margin-left: 0px;
+    margin-bottom: 30px;
     
 }
+
+
+
+.flexible{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.flexible1{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 50px;
+    
+}
+
 
 h1{
     font-size: 50px;
@@ -38,4 +69,28 @@ h1{
 p{
     margin-bottom: 40px;
     margin-top: 40px;
+}
+#mission{
+    border-radius: 10px;
+    background-color: khaki;
+    border-image-slice: 1;
+}
+#vision{
+    border-radius: 10px;
+    background-color: rgb(202, 233, 231);
+    border-image-slice: 1;
+    margin-left: 10px;
+}
+#goals{
+    border-radius: 10px;
+    background-color: rgb(240, 213, 218);
+    border-image-slice: 1;
+    
+    margin-left: 10px;
+}
+h2{
+    padding-left: 20px;
+}
+.new{
+    padding-left: 20px;
 }
